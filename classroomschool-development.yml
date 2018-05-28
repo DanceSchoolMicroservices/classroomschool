@@ -17,6 +17,12 @@ spring:
         hibernate.cache.use_query_cache: false
         hibernate.generate_statistics: true
         hibernate.hbm2ddl.auto: validate    
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: localhost
+          zkNodes: localhost        
 
 eureka:
   client:
