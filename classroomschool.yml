@@ -1,5 +1,9 @@
 server:
   port: 8082 
+  
+feign:
+    hystrix:
+        enabled: true  
 
 eureka:
   instance:
@@ -7,4 +11,6 @@ eureka:
   client:
     registerWithEureka: true
     fetchRegistry: true
+    
+    
 
