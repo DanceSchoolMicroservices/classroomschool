@@ -18,12 +18,12 @@ spring:
         hibernate.generate_statistics: true
         hibernate.hbm2ddl.auto: validate    
         
-  cloud:
-    stream:
-      kafka:
-        binder:
-          brokers: 192.168.99.1
-          zkNodes: 192.168.99.1     
+cloud:
+  stream:
+    kafka:
+      binder:
+        brokers: 192.168.99.1
+        zkNodes: 192.168.99.1     
 
 eureka:
   client:
